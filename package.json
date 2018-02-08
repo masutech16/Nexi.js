@@ -1,0 +1,30 @@
+{
+  "name": "nexi.js",
+  "version": "1.0.0",
+  "description": "個人用ゲーム制作ライブラリ(かつテストの習作)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^5.0.0",
+    "power-assert": "^1.4.4"
+  },
+  "scripts": {
+    "test": "mocha",
+    "fix": "eslint ./src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masutech16/Nexi.js.git"
+  },
+  "author": "masutech16",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masutech16/Nexi.js/issues"
+  },
+  "homepage": "https://github.com/masutech16/Nexi.js#readme"
+}
